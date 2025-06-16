@@ -120,5 +120,28 @@
     "home": "Home",
     "users": "Users",
     "about": "About"
+  },
+  "Home": {
+    "hero": {
+      "title": "Welcome to NextGen Hub",
+      "subtitle": "Your all-in-one platform for modern web development and innovation"
+    },
+    "cards": {
+      "development": {
+        "title": "Development Tools",
+        "description": "Access our comprehensive suite of development tools, including code editors, debugging utilities, and real-time collaboration features. Perfect for teams and individual developers.",
+        "button": "Explore Tools"
+      },
+      "learning": {
+        "title": "Learning Resources",
+        "description": "Discover our extensive collection of tutorials, documentation, and interactive courses. From beginner to advanced topics, we've got everything you need to master modern web development.",
+        "button": "Start Learning"
+      },
+      "community": {
+        "title": "Community Hub",
+        "description": "Join our vibrant community of developers. Share your projects, get feedback, collaborate on open-source initiatives, and connect with like-minded professionals from around the world.",
+        "button": "Join Community"
+      }
+    }
   }
 }
