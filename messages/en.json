@@ -1,0 +1,124 @@
+{
+  "Index": {
+    "title": "Welcome to Next.js Lab",
+    "subtitle": "A modern application built with Next.js, MongoDB, and TypeScript",
+    "mongodb": {
+      "title": "MongoDB Integration",
+      "description": "This app uses MongoDB to handle user data with GET & POST operations.",
+      "button": "Manage Users"
+    },
+    "layouts": {
+      "title": "Different Layouts",
+      "description": "The app demonstrates different layouts for various sections like Users and About.",
+      "button": "View About Page"
+    },
+    "metadata": {
+      "title": "Dynamic Metadata",
+      "description": "Each page has its own dynamic metadata for better SEO performance.",
+      "button": "See Metadata in Action"
+    },
+    "note": "This project demonstrates internationalization with English and Arabic support"
+  },
+  "Navigation": {
+    "home": "Home",
+    "users": "Users",
+    "about": "About"
+  },
+  "Users": {
+    "title": "Users Management",
+    "list": {
+      "title": "User List",
+      "subtitle": "Manage and view all users in the system",
+      "empty": "No users found. Create your first user!",
+      "emptyDescription": "Add your first user to get started with the application or use our sample data.",
+      "addNew": "Add New User",
+      "addFirst": "Create First User",
+      "viewDetails": "View user details",
+      "seedDatabase": "Load Sample Users",
+      "seeding": "Loading Users...",
+      "seedSuccess": "Sample users loaded successfully!",
+      "seedError": "Failed to load sample users. Please try again."
+    },
+    "new": {
+      "title": "Add New User",
+      "description": "Create a new user with name, email and optional profile image",
+      "backToList": "← Back to Users"
+    },
+    "detail": {
+      "title": "User Profile",
+      "metaDescription": "Profile details for {name} ({email})",
+      "userNotFound": "User Not Found",
+      "userNotFoundDescription": "The requested user could not be found",
+      "backToList": "← Back to Users",
+      "editUser": "Edit User",
+      "deleteUser": "Delete User",
+      "userRole": "User Role",
+      "adminRole": "Administrator",
+      "standardRole": "Standard User",
+      "bio": "Biography",
+      "noBio": "No biography provided",
+      "createdAt": "Member Since",
+      "unknown": "Unknown",
+      "accountStatus": "Account Status",
+      "active": "Active"
+    },
+    "form": {
+      "name": "Name",
+      "nameRequired": "Name is required",
+      "email": "Email",
+      "emailInvalid": "Please enter a valid email address",
+      "profileImage": "Profile Image",
+      "imageHint": "Upload a square image for best results",
+      "imageUrl": "Image URL (optional)",
+      "submit": "Create User",
+      "submitting": "Creating...",
+      "clickToUpload": "Click to upload",
+      "orDragDrop": "or drag and drop",
+      "uploading": "Uploading...",
+      "changeImage": "Change Image",
+      "removeImage": "Remove Image"
+    },
+    "profile": {
+      "backToList": "← Back to Users",
+      "memberSince": "Member since",
+      "editUser": "Edit User",
+      "deleteUser": "Delete User",
+      "userRole": "User Role",
+      "adminRole": "Administrator",
+      "standardRole": "Standard User",
+      "accountStatus": "Account Status",
+      "active": "Active",
+      "confirmDelete": "Confirm Delete",
+      "confirmDeleteMessage": "Are you sure you want to delete {name}? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirmButton": "Yes, Delete",
+      "deleting": "Deleting..."
+    }
+  },
+  "About": {
+    "title": "About Our Project",
+    "description": "This is a Next.js application created as part of a lab task to demonstrate various Next.js features and capabilities.",
+    "features": {
+      "title": "Features Implemented",
+      "list": {
+        "mongodb": "MongoDB integration for user data management",
+        "api": "Custom API routes for handling GET and POST requests",
+        "layouts": "Different layout implementations for various sections",
+        "metadata": "Dynamic metadata generation for each page",
+        "routes": "Static and dynamic routes",
+        "isr": "Incremental Site Regeneration on users route"
+      }
+    },
+    "technologies": {
+      "title": "Technologies Used"
+    }
+  },
+  "Footer": {
+    "copyright": "© 2023 Next.js Lab Task",
+    "description": "A modern web application demonstrating Next.js features",
+    "links": "Quick Links",
+    "home": "Home",
+    "users": "Users",
+    "about": "About"
+  }
+}
